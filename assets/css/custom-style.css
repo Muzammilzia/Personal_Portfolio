@@ -1,0 +1,18 @@
+.custom-skills-container{
+    width: 100%;
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(150px, 25%)); 
+    justify-content: center;
+}
+
+.custom-skills-container > div {
+    display: flex; 
+    justify-content: center; 
+    margin: 16px 0;
+}
+
+.custom-skills-container > div > span {
+    padding: 16px; 
+    border: 2px solid white; 
+    border-radius: 32px;
+}
